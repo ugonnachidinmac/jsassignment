@@ -1,3 +1,4 @@
+// Object Declaration  Sender's Data
 let myCardInfo = {
     name: "Amadi Chile",
     accountNumber: "0000112244",
@@ -6,6 +7,7 @@ let myCardInfo = {
     bank: "Access Bank"
 };
 
+// Object Declaration Receiver's data
 let recipientInfo = {
     name: "Amadi Gift",
     accountNumber: "0000112244",
@@ -14,7 +16,7 @@ let recipientInfo = {
 };
 
 function atms() {
-    // Insert Card
+    //Step 1: Insert Card
     let insertCard = prompt("Welcome to Access Bank\nPlease insert your card by typing 'YES'");
     if (insertCard.toUpperCase() !== "YES") {
         alert("Transaction cancelled.");
